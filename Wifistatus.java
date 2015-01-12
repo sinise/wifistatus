@@ -14,7 +14,7 @@ public class Wifistatus
             logTofile(status, timestamp());
             System.out.println(status + timestamp());
                try{
-                   Thread.sleep(2000);
+                   Thread.sleep(60000);
                } catch(InterruptedException e) {
                      Thread.currentThread().interrupt();
                }
